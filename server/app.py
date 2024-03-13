@@ -18,10 +18,9 @@ from models.user import User
 # auth routes
 from routes.auth.login import Login
 from routes.auth.logout import Logout
-
-# from routes.auth.me import Me
-# from routes.auth.refresh import Refresh
-# from routes.auth.register import Register
+from routes.auth.me import Me
+from routes.auth.refresh import Refresh
+from routes.auth.register import Register
 
 # routes
 
