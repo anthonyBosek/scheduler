@@ -1,13 +1,5 @@
 #! /usr/bin/env python3
 
-# from config import app, db, api, jwt
-# from werkzeug.exceptions import NotFound
-
-if __name__ == "__main__":
-    print("so so very cool")
-    # app.run(port=5555, debug=True)
-#! /usr/bin/env python3
-
 from config import app, db, api, jwt
 from werkzeug.exceptions import NotFound
 
@@ -18,10 +10,9 @@ from models.user import User
 # auth routes
 from routes.auth.login import Login
 from routes.auth.logout import Logout
-
-# from routes.auth.me import Me
-# from routes.auth.refresh import Refresh
-# from routes.auth.register import Register
+from routes.auth.me import Me
+from routes.auth.refresh import Refresh
+from routes.auth.register import Register
 
 # routes
 
