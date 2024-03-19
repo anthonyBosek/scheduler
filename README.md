@@ -1,3 +1,10 @@
-# this is our README :)
+# Universal Scheduler
 
-## yes it is!!
+## Backend API
+
+### Python, Flask, SQLAlchemy, PostgreSQL
+
+#### Contributors
+
+- [Kat Tannehill](https://github.com/ktannehill)
+- [Anthony Bosek](https://github.com/anthonyBosek)
